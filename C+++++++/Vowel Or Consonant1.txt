@@ -1,0 +1,21 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	char val;
+	cout<<"Enter an Alphabet";
+	cin>>val;
+	if(val=='a' || val=='e' || val=='i' || val=='o' || val=='u' || val=='A' || val=='E' || val=='I' || val=='O' || val=='U')
+	{
+	cout<<"It is a Vowel";
+	}
+	else
+	{
+	cout<<"It is a Consonant";
+	}
+	getch();
+}

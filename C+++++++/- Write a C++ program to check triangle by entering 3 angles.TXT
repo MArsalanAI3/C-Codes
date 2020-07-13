@@ -1,0 +1,36 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <string>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+	int a, b, c;
+	cout << "enter number a:" << endl;
+	cin >> a;
+	cout << "enter number b:" << endl;
+	cin >> b;
+	cout << "enter number c:" << endl;
+	cin >> c;
+	if (a + b > c)
+	{
+		cout << "triangle is valid" << endl;
+	}
+	else if (a + c > b)
+	{
+		cout << "triangle is valid" << endl;
+	}
+	else if(c+ b > a)
+	{
+		cout << "triangle is valid" << endl;
+	}
+	else
+	{
+		cout << "triangle is invalid" << endl;
+	}
+	system ("pause");
+	return 0;
+}

@@ -1,0 +1,79 @@
+if...else programming exercise
+
+
+Write a  program to find maximum between two numbers.
+
+
+Write a  program to find maximum between three numbers.
+
+
+Write a  program to check whether a number is negative, positive or zero.
+
+
+Write a  program to check whether a number is divisible by 5 and 11 or not.
+
+
+Write a  program to check whether a number is even or odd.
+
+
+Write a  program to check whether a year is leap year or not.
+
+
+Write a  program to check whether a character is alphabet or not.
+
+
+Write a  program to input any alphabet and check whether it is vowel or consonant.
+
+
+Write a  program to input any character and check whether it is alphabet, digit or special character.
+
+
+Write a  program to check whether a character is uppercase or lowercase alphabet.
+
+
+Write a  program to input week number and print week day.
+
+
+Write a  program to input month number and print number of days in that month.
+
+
+Write a  program to count total number of notes in given amount.
+
+
+Write a  program to input angles of a triangle and check whether triangle is valid or not.
+
+
+Write a  program to input all sides of a triangle and check whether triangle is valid or not.
+
+
+Write a  program to check whether the triangle is equilateral, isosceles or scalene triangle.
+
+
+Write a  program to find all roots of a quadratic equation.
+
+
+Write a  program to calculate profit or loss.
+switch case.
+
+Write a  program to print day of week name using switch case.
+
+
+Write a  program print total number of days in a month using switch case.
+
+
+Write a  program to check whether an alphabet is vowel or consonant using switch case.
+
+
+Write a  program to find maximum between two numbers using switch case.
+
+
+Write a  program to check whether a number is even or odd using switch case.
+
+
+Write a  program to check whether a number is positive, negative or zero using switch case.
+
+
+Write a  program to find roots of a quadratic equation using switch case.
+
+
+Write a  program to create Simple Calculator using switch case

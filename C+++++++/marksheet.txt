@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+int main() 
+{ 
+	    float percntage,total,obtain, m , p , c , u , i ;
+		cout << "enter the maths number";
+        cin >> m;
+		cout << "enter the physics number";
+        cin >> p;
+		cout << "enter the computer number";
+        cin >> c;
+		cout << "enter the urdu number";
+        cin >> u;
+		cout << "enter the isl number";
+        cin >> i;
+		total = 500;
+		obtain = m + p + c + u + i;
+		percntage = (obtain/total)*100;
+		cout << "yours percntage will be" << percntage;
+		cout << endl;
+		if (percntage >= 50 && percntage < 60) {
+			cout << "your grade is C";}
+		else if (percntage >= 60 && percntage < 70) {
+			cout << "your grade is B";}
+		else if (percntage >= 70 && percntage < 80) {
+			cout << "your grade is A";}
+		else if (percntage >= 80 && percntage < 100) {
+			cout << "your grade is A+";}
+		else
+			cout << "failed";
+	    getch();
+	    return 0;
+}  

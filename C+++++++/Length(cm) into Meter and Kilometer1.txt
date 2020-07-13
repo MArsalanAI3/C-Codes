@@ -1,0 +1,17 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	float l;
+	cout << "Enter Length in Centimeters\t";
+	cin >> l;
+	float meter = l / 100;
+	float kilom = l / 10000;
+	cout << "The Length in Meter is\t" << meter;
+	cout << "\nThe Length in Kilometer is\t" << kilom;
+	getch();
+}

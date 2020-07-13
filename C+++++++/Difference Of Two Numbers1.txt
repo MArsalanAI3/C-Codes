@@ -1,0 +1,18 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+
+using namespace std;
+
+void main()
+{
+	int num1;
+	int num2;
+	cout << "Enter First Number";
+	cin >> num1;
+	cout << "Enter Second Number";
+	cin >> num2;
+	int subt = num1 - num2;
+	cout << "The Difference of Two Given Number is" << subt;
+	getch();
+}

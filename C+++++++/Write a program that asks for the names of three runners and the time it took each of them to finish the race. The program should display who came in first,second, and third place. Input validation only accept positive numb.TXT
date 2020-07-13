@@ -1,0 +1,80 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <string>
+
+using namespace std;
+int main()
+{
+	int t1, t2, t3;
+	string  n1, n2, n3;
+	cout << "enter the player name 1:" << endl;
+	cin >> n1;
+	cout << "enter which player finished first 1:" << endl;
+	cin >> t1;
+	if (t1 <= 0)
+	{
+		cout << "enter positive number :";
+	}
+
+
+	cout << "enter the player name 2:" << endl;
+	cin >> n2;
+	cout << "enter which player finished first 2:" << endl;
+	cin >> t2;
+	if (t2 <= 0)
+	{
+		cout << "enter positive number :";
+	}
+
+
+	cout << "enter the player name 3:" << endl;
+	cin >> n3;
+	cout << "enter which player finished first 3:" << endl;
+	cin >> t3;
+	if (t3 <= 0)
+	{
+		cout << "enter positive number :";
+	}
+
+
+
+	if (t1 < t2 && t1<t3 && t2>t3)
+	{
+		cout << "first place:" << n1 << endl;
+		cout << "second place:" << n2 << endl;
+		cout << "third place:" << n3 << endl;
+	}
+	if (t1 < t2 && t1 < t3 && t2 < t3)
+	{
+		cout << "first place:" << n1 << endl;
+		cout << "second place:" << n2 << endl;
+		cout << "third place:" << n3 << endl;
+	}
+	if (t2 < t1 && t2<t3 && t1>t3)
+	{
+		cout << "first place:" << n1 << endl;
+		cout << "second place:" << n2 << endl;
+		cout << "third place:" << n3 << endl;
+	}
+	if (t2 < t1 && t2 < t3 && t1 < t3)
+	{
+		cout << "first place:" << n1 << endl;
+		cout << "second place:" << n2 << endl;
+		cout << "third place:" << n3 << endl;
+	}
+	if (t3 < t1 && t3<t2 && t2>t1)
+	{
+		cout << "first place:" << n1 << endl;
+		cout << "second place:" << n2 << endl;
+		cout << "third place:" << n3 << endl;
+	}
+	if (t3 < t1 && t3 < t2 && t2 < t1)
+	{
+		cout << "first place:" << n1 << endl;
+		cout << "second place:" << n2 << endl;
+		cout << "third place:" << n3 << endl;
+	}
+	system ("pause");
+	return 0;
+}

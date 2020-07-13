@@ -1,0 +1,21 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <string>
+using namespace std;
+
+int main()
+{
+	char name,age,rollnumber,universityname;
+	cout<<"enter your name:"<<endl;
+	cin>>name;
+	cout<<"enter your age:"<<endl;
+	cin>>age;
+	cout<<"enter your rollnumber:"<<endl;
+	cin>>rollnumber;
+	cout<<"enter your university name:"<<endl;
+	cin>>universityname;
+	getch();
+	return 0;
+	
+}

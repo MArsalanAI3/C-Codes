@@ -1,0 +1,18 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+
+using namespace std;
+
+void main()
+{
+	int num1;
+	int num2;
+	cout << "Enter First Number";
+	cin >> num1;
+	cout << "Enter Second Number";
+	cin >> num2;
+	int add = num1 + num2;
+	cout << "The Sum of Two Given Number is" << add;
+	getch();
+}

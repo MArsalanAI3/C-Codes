@@ -1,0 +1,62 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <string>
+
+using namespace std;
+int main()
+{ 
+	int fsc,nts;
+	cout << "enter the marks of FSC:" << endl;
+	cin>> fsc;
+	cout << "enter the marks of NTS:" << endl;
+	cin >> nts;
+	if (fsc>= 70 && nts >=70)
+	{
+		cout << "you get addmission in oxford university at IT department:" << endl;
+	}
+	if (fsc >= 70 && nts >70 && nts<60)
+	{
+		cout << "you get addmission in oxford university at electronics ENG department:" << endl;
+	}
+	if (fsc >= 70 && nts >60 && nts <70)
+	{
+		cout << "you get addmission in oxford university at telecommunication department:" << endl;
+	}
+	if (fsc >= 70 && fsc <=60 && nts >=50)
+	{
+		cout << "you get addmission in oxford university at MIT IT department:" << endl;
+	}
+	if (fsc >= 50 && fsc <= 59 && nts >50)
+	{
+		cout << "you get addmission in oxford university at chemical engineering department:" << endl;
+	}
+	if (fsc >= 50 && fsc <=59 && nts < 50)
+	{
+		cout << "you get addmission in oxford university at computer ENG department:" << endl;
+	}
+	if (fsc >= 40 && fsc <=50 && nts < 50)
+	{
+		cout << "you get addmission in oxford university at MIT computer engineering  department:" << endl;
+	}
+
+	/*if (marks >= 50 && marks < 65)
+	{
+		cout << "just/.........:" << endl;
+	}
+	if (marks < 50)
+	{
+		cout << "failed:" << endl;
+
+		if (marks >= 33 && marks < 50)
+		{
+			cout << "resit:" << endl;
+		}
+		else if (marks < 33)
+		{
+			cout << "redo:" << endl;
+		}
+	}*/
+	system ("pause");
+	return 0;
+}

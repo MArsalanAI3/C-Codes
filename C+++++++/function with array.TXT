@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+void print(int x[5]);
+int main()
+{
+	int arsalan[5] = { 10,20,30,40,50 };
+	print(arsalan);
+	system("pause");
+      
+}
+void print(int arsalan[5])
+{
+	for (int i = 0; i < 5; i++)
+	{
+		cout << "value of array" << arsalan[i] << endl;
+	}
+}
+

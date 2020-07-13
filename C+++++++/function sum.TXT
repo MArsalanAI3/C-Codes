@@ -1,0 +1,20 @@
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+void sum(int a,int b);
+int main()
+{
+  int x, y;
+  cin>>x;
+  cin>>y;
+  sum(x,y);
+  getchar();
+}
+void sum(int a,int b)
+{
+    int sum;
+    sum=a+b;
+    cout<<sum<<endl;
+}

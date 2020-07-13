@@ -1,0 +1,17 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <string>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+	char c;
+	cout << "enter number c:" << endl;
+	cin >> c;
+	cout << "the value os ASCII:"<< c <<"is:"<< (int) c ;
+	system ("pause");
+	return 0;
+}

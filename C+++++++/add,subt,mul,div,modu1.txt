@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+int main() 
+{ 
+	int a,b,c,d,e,f,g;
+	cout << "\n enter first number a:";
+	cin >> a;
+	cout << "\n enter second number b:";
+	cin >> b;
+	c=a+b;
+	d=a-b;
+	e=a*b;
+	f=a/b;
+	g=a%b;
+	cout << "add="<<c<<"\n";
+	cout << "subt="<<d<<"\n";
+	cout << "multi="<<e<<"\n";
+	cout << "divi="<<f<<"\n";
+	cout << "modu="<<g<<"\n";
+	 getch();
+	 return 0;
+}  

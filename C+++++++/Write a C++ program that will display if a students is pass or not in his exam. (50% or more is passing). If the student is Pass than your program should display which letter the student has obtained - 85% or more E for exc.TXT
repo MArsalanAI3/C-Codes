@@ -1,0 +1,43 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <string>
+
+using namespace std;
+int main()
+{ 
+	int marks;
+	cout << "enter the marks:" << endl;
+	cin>> marks;
+	if (marks >= 85 && marks < 100)
+	{
+		cout << "excelent E:" << endl;
+	}
+	if (marks >= 75 && marks < 85)
+	{
+		cout << "outstanding O:" << endl;
+	}
+	if (marks >= 65 && marks < 75)
+	{
+		cout << "good G:" << endl;
+	}
+	if (marks >= 50 && marks < 65)
+	{
+		cout << "just/.........:" << endl;
+	}
+	if (marks < 50)
+	{
+		cout << "failed:" << endl;
+
+		if (marks >= 33 && marks < 50)
+		{
+			cout << "resit:" << endl;
+		}
+		else if (marks < 33)
+		{
+			cout << "redo:" << endl;
+		}
+	}
+	system ("pause");
+	return 0;
+}

@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int m1, m2, m3, m4,m5,aggr;
+	float per;
+	cout << "enter 5 subject's marks:"<<endl;
+	cin >> m1 >> m2 >> m3 >> m4 >> m5;
+	aggr = m1 + m2 + m3 + m4 + m5;
+	per = aggr / 5;
+	cout << aggr << endl;
+	cout << per << endl;
+	cout <<"press any key to exit" << endl;
+
+	system("pause");
+	return 0;
+}

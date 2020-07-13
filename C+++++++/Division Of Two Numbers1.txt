@@ -1,0 +1,44 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+
+using namespace std;
+
+void main()
+{
+	int num1;
+	int num2;
+	cout << "Enter First Number";
+	cin >> num1;
+	cout << "Enter Second Number";
+	cin >> num2;
+	int divide = num1 / num2;
+	cout << "The Division of Two Given Number is" << divide;
+	getch();
+}
+
+
+
+
+
+For Decimal points:
+
+
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	float num1;
+	float num2;
+	cout << "Enter First Number";
+	cin >> num1;
+	cout << "Enter Second Number";
+	cin >> num2;
+	float divide = num1 / num2;
+	cout << "The Division of Two Given Number is" << divide;
+	getch();
+}

@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int c, d, e;
+	cout << "enter the location of c" << endl;
+	cin >> c;
+	cout << "enter the location of d" << endl;
+	cin >> d;
+	e = c;
+	c = d;
+	d = e;
+
+	cout << e << endl;
+	cout << d << endl;
+	cout <<"press any key to exit" << endl;
+
+	system("pause");
+	return 0;
+}

@@ -1,0 +1,16 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	float f1;
+	cout << "Enter Temperature in Fahrenheit\t";
+	cin >> f1;
+	float f2 = f1 - 32;
+	float c = f2 * 0.5555;
+	cout << "The Temperature in Celsius is\t" << c;
+	getch();
+}

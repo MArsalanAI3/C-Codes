@@ -1,0 +1,47 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	float num1;
+	cout <<"Enter the first Number";
+	cin>>num1;
+	char oprte;
+	cout <<"Choose a Operator(+,-,*,/)";
+	cin>>oprte;
+	float num2;
+	cout <<"Enter the second Number";
+	cin>>num2;
+	if (oprte =='+')
+	{
+	float sum;
+	sum=num1 + num2;
+	cout<<"Your answer is:"<<sum;
+	}
+	else if (oprte=='-')
+	{
+	float sub;
+	sub=num1 - num2;
+	cout<<"Your answer is:"<<sub;
+	}
+	else if (oprte=='*')
+	{
+	float mul;
+	mul=num1 * num2;
+	cout<<"Your answer is:"<<mul;
+	}
+	else if (oprte=='/')
+	{
+	float divi;
+	divi=num1 / num2;
+	cout<<"Your answer is:"<<divi;
+	}
+	else
+	{
+	cout<<"Syntax Error";
+	}
+	getch();
+}

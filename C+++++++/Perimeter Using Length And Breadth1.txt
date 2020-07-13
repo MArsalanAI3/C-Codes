@@ -1,0 +1,19 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+
+using namespace std;
+
+void main()
+{
+	int l1;
+	int b1;
+	cout << "Enter Length Of Rectangle";
+	cin >> l1;
+	cout << "Enter Breadth Of Rectangle";
+	cin >> b1;
+	int perim1 = l1 + b1;
+        int perim2 = 2 * perim1
+	cout << "The Area of Given Rectangle is" << perim2;
+	getch();
+}
